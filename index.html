@@ -1,68 +1,168 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
- <title>The Intellect</title>
- <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="icon" href="https://cdn.discordapp.com/attachments/859314015568920578/871726847371669555/The_Intellect_web_logo.png">
+	<meta charset="UTF-8">
+	<title>The Intellect</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/859314015568920578/871726847371669555/The_Intellect_web_logo.png">
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: 'Poppins', sans-serif;
+			height: 100vh;
+		}
+
+		.wrapper {
+			width: 1170px;
+			margin: auto;
+		}
+
+		header {
+			background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+			height: 100vh;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: center center;
+			position: relative;
+		}
+
+		.nav-area {
+			float: right;
+			list-style: none;
+			margin-top: 40px;
+			margin-right: 165px;
+			font-size: 30px;
+		}
+
+		.nav-area li {
+			display: inline-block;
+		}
+
+		.nav-area li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 5px 60px;
+			font-family: poppins;
+			font-size: 27px;
+			text-transform: uppercase;
+		}
+
+		.nav-area li a:hover {
+			background: #fff;
+			color: #333;
+		}
+
+		.logo {
+			float: left;
+		}
+
+		.logo img {
+			width: 100%;
+			padding: 15px 0;
+		}
+
+		.welcome-text {
+			position: absolute;
+			width: 600px;
+			height: 300px;
+			margin: 17% 30%;
+			text-align: center;
+		}
+
+		.welcome-text h1 {
+			text-align: center;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 84px;
+		}
+
+		.welcome-text h1 span {
+			color: #00fecb;
+		}
+
+		.welcome-text a {
+			border: 1px solid #fff;
+			padding: 10px 25px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 14px;
+			margin-top: 20px;
+			display: inline-block;
+			color: #fff;
+		}
+
+		.welcome-text a:hover {
+			background: #fff;
+			color: #333;
+		}
+
+		/*resposive*/
+
+		@media (max-width:600px) {
+			.wrapper {
+				width: 100%;
+			}
+			.logo {
+				float: none;
+				width: 50%;
+				text-align: center;
+				margin: auto;
+			}
+			img {
+				width: ;
+			}
+			.nav-area {
+				float: none;
+				margin-top: 0;
+			}
+			.nav-area li a {
+				padding: 5px;
+				font-size: 11px;
+			}
+			.nav-area {
+				text-align: center;
+			}
+			.welcome-text {
+				width: 100%;
+				height: auto;
+				margin: 30% 0;
+			}
+			.welcome-text h1 {
+				font-size: 30px;
+			}
+		}
+
+		h2 {
+			color: white;
+		}
+	</style>
 </head>
+
 <body>
-<header class="site-header clearfix">
-  <nav>
-    <input id="nav-toggle" type="checkbox">
-    <div class="logo">The Intellect</div>
-    <ul class="links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tutorial.html">Tutorials</a></li>
-      <li><a href="Question.html">FAQ</a></li>
-      <li><a href="about.html">About Us</a></li>
-    </ul>
-    <label for="nav-toggle" class="icon-burger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </label>
-  </nav>
- <section>
-  <div class="leftside"> 
-   <img src="https://cdn.discordapp.com/attachments/859314015568920578/871726847371669555/The_Intellect_web_logo.png">
-  </div>
-  <div class="rightside"> 
-   <h1>The Intellect</h1>
-   <p>Let's Build ourselves ExtraOrdinary</p>
-   <form action="https://youtu.be/t8IXH3i50kc" class="inline">
-    <button class="float-left submit-button" >Get Started</button>
-   </form>
-  
- </section>
+	<header>
+		<div class="wrapper">
 
+			<ul class="nav-area">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tutorial.html">Tutorials</a></li>
+				<li><a href="Question.html">FAQ</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</div>
+		<div class="welcome-text">
+			<h1>
+				The <span> Intellect</span></h1>
+<h2>Smartest way to learn coding</h2>
+<a href="https://www.youtube.com/watch?v=t8IXH3i50kc" target="blank">Get started</a>
+    </div>
 </header>
-</div>
 
-<div class="about">  
-  <h2>Welcome to Intellect</h2>
-  <p>Intellect is a brand you studying platform for students. Where they can study programming 
-    languages like Python, Java, C++, C and many more.
-    The best part about this website is that the courses availaible on this
-    site is free of cost. We have also added a Mebership. In that You will
-    get high level practice Question, 24/7 Tutor Support for solving you doubts and
-    many more kind of perks. If you are intrested you can take it.
-    Thank you for reading. Hope you will have a great experience with our website.
-  </p>
-</div>
-<br>
-<div class="about">  
-  <h2>What is the advantage <br> to learn with us?</h2>
-  <p>We will give high quality video and live lessons which will make 
-    the learner to enter the world of programming in a fun and interactive way. We make all of our courses for free and paid. you can check 
-    the courses offered by us by clicking the <a href="/tutorial.html" class = 'ooo'>link</a> here.
-  </p>
-
-</div>
-<br>
-<br>
-
-<br>
-<br>
 </body>
 </html>
