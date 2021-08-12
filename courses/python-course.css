@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  max-height: 200vh;
+}
+
+.main{
+  height: 120vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* .main img{
+  height: 77%;
+  width: 100%;
+}*/
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main content h1{
+  color: white;
+  font-size: 10px;
+}
