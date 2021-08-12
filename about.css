@@ -54,7 +54,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 952px){
+@media only screen and (max-width: 952px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -63,9 +63,14 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
+@media only screen and (max-width: 1140px){
   .checkbtn{
     display: block;
+  }
+  .about-container {
+  max-width: 900px;
+  margin: 40px 25px;
+  font-family: 'Roboto', sans-serif;
   }
   ul{
     position: fixed;
@@ -93,11 +98,12 @@ a.active,a:hover{
     left: 0;
   }
 }
+@media only screen and (min-width: 1140px){
 .about-container {
   max-width: 900px;
   margin: 40px auto;
   font-family: 'Roboto', sans-serif;
-}
+}}
 
 .about-container p {
   line-height: 2;
