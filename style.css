@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 hr{
         height: 5px;
@@ -13,15 +14,15 @@ hr{
     box-sizing: border-box;
   }
   body{
-    font-family: montserrat;
-  }
+    font-family: 'Roboto', sans-serif;}
+    
   nav {
-    position: fixed;
+    position: absolute;
     z-index: 10;
     left: 0;
     right: 0;
     top: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0 5%;
     height: 100px;
     background-color: #272727;
@@ -32,7 +33,8 @@ hr{
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-family: Poppins;
+    font-size: 35px;
     color: #fff;
   }
   nav .links {
@@ -42,6 +44,8 @@ hr{
     width: 60%;
     height: 100%;
     display: flex;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
     justify-content: space-around;
     align-items: center;
   }
@@ -51,8 +55,7 @@ hr{
   nav .links a {
     display: block;
     padding: 1em;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
   }
@@ -127,7 +130,7 @@ hr{
     }
 *{
     margin: 0; padding:0; box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .site-header {
@@ -236,4 +239,8 @@ section{ display: flex;  }
 .about a{
   color: black;
   text-decoration: underline;
+}
+.paragraph{
+  text-align: center;
+  font-size: 16px;
 }

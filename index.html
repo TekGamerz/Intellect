@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 
 <head>
 	<meta charset="UTF-8">
 	<title>The Intellect</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <link rel="icon" href="https://cdn.discordapp.com/attachments/859314015568920578/871726847371669555/The_Intellect_web_logo.png">
+	<link rel="icon" href="https://cdn.discordapp.com/attachments/859314015568920578/871726847371669555/The_Intellect_web_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
 	<style>
 		* {
 			margin: 0;
 			padding: 0;
+      
 		}
 
 		body {
@@ -74,6 +78,8 @@
 			height: 300px;
 			margin: 17% 30%;
 			text-align: center;
+			color: white;
+			font-size: 20px;
 		}
 
 		.welcome-text h1 {
@@ -105,43 +111,49 @@
 
 		/*resposive*/
 
-		@media (max-width:600px) {
+		@media only screen and (max-width: 1140px) {
 			.wrapper {
-				width: 100%;
-			}
-			.logo {
-				float: none;
-				width: 50%;
-				text-align: center;
-				margin: auto;
-			}
-			img {
-				width: ;
+				width: 900px;
 			}
 			.nav-area {
-				float: none;
-				margin-top: 0;
-			}
-			.nav-area li a {
-				padding: 5px;
-				font-size: 11px;
-			}
-			.nav-area {
-				text-align: center;
-			}
-			.welcome-text {
-				width: 100%;
-				height: auto;
-				margin: 30% 0;
-			}
-			.welcome-text h1 {
+				float: right;
+				list-style: none;
+				margin-top: 50px;
+				margin-right: -5px;
 				font-size: 30px;
 			}
+			.welcome-text {
+				position: absolute;
+				width: 600px;
+				height: 300px;
+				margin: 28% 20%;
+				text-align: center;
+				color: white;
+			}
+			body {
+				font-family: 'Poppins', sans-serif;
+				height: 130vh;
+			}
+
+			header {
+				background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+				height: 130vh;
+				-webkit-background-size: cover;
+				background-size: cover;
+				background-position: center center;
+				position: relative;
+			}
+		}
+
 		}
 
 		h2 {
 			color: white;
 		}
+    .paragraph{
+      text-align: center;
+      font-size: 50px;
+    }
 	</style>
 </head>
 
@@ -163,6 +175,7 @@
 <a href="https://www.youtube.com/watch?v=t8IXH3i50kc" target="blank">Get started</a>
     </div>
 </header>
+
 
 </body>
 </html>

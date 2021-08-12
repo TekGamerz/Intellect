@@ -2,6 +2,14 @@
 <html>
 <head>
   <title>The Intellect Tutorials</title>
+  <!-- I edited from here -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="icon" href="https://cdn.discordapp.com/attachments/867340856158453790/870616023768895488/The_Intellect_web_logo.png">
@@ -46,6 +54,7 @@ body {
   grid-column-gap: 50px;
   grid-template-columns: auto auto auto;
   background-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
   padding: 30px;
   margin-top: 60px;
 }
@@ -54,8 +63,9 @@ body {
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
   text-align: center;
   margin: 10px;
 }
@@ -84,7 +94,7 @@ body {
 	width: 100%;
 }
 nav {
-	position: fixed;
+	position: absolute;
 	z-index: 10;
 	left: 0;
 	right: 0;
@@ -94,13 +104,15 @@ nav {
 	height: 100px;
 	background-color: #272727;
 }
+
 nav .logo {
 	float: left;
 	width: 40%;
 	height: 100%;
 	display: flex;
+  font-family: 'Poppins', sans-serif;
 	align-items: center;
-	font-size: 24px;
+	font-size: 35px;
 	color: #fff;
 }
 nav .links {
@@ -119,7 +131,7 @@ nav .links li {
 nav .links a {
 	display: block;
 	padding: 1em;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
@@ -217,67 +229,76 @@ nav .icon-burger .line {
 <h1 style="text-align: center;">Tutorials</h1>
 
 <div class="grid-container">
-  <div class="grid-item"><img src="weblogo.jpeg" width="150" height="100">Learn HTML+CSS
+  <div class="grid-item"><img src="weblogo.jpeg" width="95" height="70"></br>Learn HTML+CSS
 <br>
   <ol></ol>
   <a href="courses/learn-html-css.html" class="square_btn">Enroll</a> 
   </div>
-  <div class="grid-item"><img src="python.png" width="150" height="100">Learn Python
+  <div class="grid-item"><img src="python.png" width="95" height="70"></br>Learn Python
   <ol></ol>
   <a href="courses/learn-python.html" class="square_btn">Enroll</a> 
   </div>
-  <div class="grid-item"><img src="https://media.discordapp.net/attachments/867340856158453790/869168292487639060/c-sharp-c-logo-02F17714BA-seeklogo.png" width="100" height="100">Learn C#
+  <div class="grid-item"><img src="https://media.discordapp.net/attachments/867340856158453790/869168292487639060/c-sharp-c-logo-02F17714BA-seeklogo.png" width="85" height="77"><br>Learn C#
   <ol></ol>
   <a href="courses/learn-c-sharp.html" class="square_btn">Enroll</a> </div>  
-  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" width="120" height="100">Learn C 
+  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" width="85" height="75"></br>Learn C 
   <ol></ol>
   <a href="courses/learn-c.html" class="square_btn">Enroll</a> 
   </div>
-  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"   width="150" height="100">Learn C++
+  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"   width="100" height="80"></br>Learn C++
   <ol></ol>
   <a href="courses/learn-c-plus-plus.html" class="square_btn">Enroll</a> 
   </div>
-  <div class="grid-item"><img src="http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/robot-02-icon.png" width="150" height="100">Learn Robotics 
+  <div class="grid-item"><img src="http://icons.iconarchive.com/icons/diversity-avatars/avatars/1024/robot-02-icon.png" width="90" height="75"></br>Learn Robotics 
 
   <ol></ol>
   <a href="courses/learn-robotics.html" class="square_btn">Enroll</a> 
   </div>  
-  <div class="grid-item"><img src="java.png" width="150" height="100">Learn Java
+  <div class="grid-item"><img src="java.png" width="95" height="75"></br>Learn Java
   <ol></ol>
   <ol></ol>
   <a href="courses/learn-java.html" class="square_btn">Enroll</a> </div>
-  <div class="grid-item"><img src="eth.png" width="150" height="100">Learn Electrical Engineering
+  <div class="grid-item"><img src="eth.png" width="90" height="70"></br>Learn Electrical</br> Engineering
 
   <ol></ol>
   <a href="courses/learn-electricalengineering.html" class="square_btn">Enroll</a> </div>
 
 
-  <div class="grid-item"><img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" width="150" height="100">Learn Javascript
+  <div class="grid-item"><img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" width="90" height="75"></br>Learn Javascript
 
   <ol></ol>
   <a href="courses/learn-javascript.html" class="square_btn">Enroll</a> 
   </div>
 
 
-  <div class="grid-item"><img src="https://d3b8hk1o42ev08.cloudfront.net/wp-content/uploads/2019/04/Best-Programming-language-for-game-development-770x515-752x440.png" width="150" height="100">Learn Game Development 
+  <div class="grid-item"><img src="https://d3b8hk1o42ev08.cloudfront.net/wp-content/uploads/2019/04/Best-Programming-language-for-game-development-770x515-752x440.png" width="90" height="70"></br>Learn Game</br> Development 
 
   <ol></ol>
 
   <a href="courses/learn-gamedev.html" class="square_btn">Enroll</a>
   </div>
 
-  <div class="grid-item"><img src="vlang.png" width="150" height="100">Learn VLang
+  <div class="grid-item"><img src="vlang.png" width="90" height="75"></br>Learn VLang
 
   <ol></ol>
   <a href="courses/learn-javascript.html" class="square_btn">Enroll</a> 
   </div>
 
-  <div class="grid-item"><img src="https://pbs.twimg.com/profile_images/1379574931705397248/NTiNTrHd.jpg" width="150" height="100">Learn (TBD)
+  <div class="grid-item"><img src="https://pbs.twimg.com/profile_images/1379574931705397248/NTiNTrHd.jpg" width="90" height="75"></br>Learn Video Editing
 
   <ol></ol>
   <a href="courses/learn-javascript.html" class="square_btn">Enroll</a> 
   </div>
 </div>
 
+<footer class="page-footer font-small black">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://https://website-1.coderserwin.repl.co//"> Intellect.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 </body>
 </html>
